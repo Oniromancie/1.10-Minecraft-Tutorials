@@ -1,0 +1,14 @@
+item.purple_glowstone_dust.name=Purple Glowstone Dust
+item.structure_spawner.name=Structure Spawner
+item.strawberry.name=Strawberry
+item.strawberry_seeds.name=Strawberry Seeds
+item.acid_bucket.name=Acid Bucket
+
+tile.purple_glowstone.name=Purple Glowstone
+tile.table.name=Table
+tile.strawberry_crop.name=Strawberry Crop
+tile.acid.name=Acid
+
+itemGroup.tabTutorial=Tutorial Tab
+
+entity.tutorial.Four Arms.name=Four Arms
