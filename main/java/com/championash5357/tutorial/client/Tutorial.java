@@ -40,10 +40,13 @@ public class Tutorial {
 	public static Tutorial modInstance;
 	
 	public static TutorialTab tabTutorial = new TutorialTab(getNextAvailableTabIndex(), "tabTutorial");
-	
+	static {
+			FluidRegistry.enableUniversalBucket(); // Must be called before preInit
+	}
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		TutorialFluids.register();
+		FluidRegistry.addBucketForFluid(TutorialFluids.FluidAcid.instance);
 		TutorialBlocks.init();
 		TutorialBlocks.register();
 		TutorialItems.init();
